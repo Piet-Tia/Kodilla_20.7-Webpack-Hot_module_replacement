@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --env development",
+    "start": "webpack-dev-server --env development",
     "build": "webpack --env production"
   },
   "repository": {
@@ -32,7 +32,8 @@
     "react-dom": "^16.6.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
     "uuid": "^3.3.2"
